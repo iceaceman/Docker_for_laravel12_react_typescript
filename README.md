@@ -1,0 +1,2 @@
+# Docker_for_laravel12_react_typescript
+Docker for laravel12 with react_typescript
