@@ -47,9 +47,9 @@ services:
       - db-data:/var/lib/mysql
     environment:
       MYSQL_ROOT_HOST: 'localhost'
-      MYSQL_DATABASE: 'mysql-database'
-      MYSQL_USER: 'mysql-username'
-      MYSQL_PASSWORD: 'mysql-password'
+      MYSQL_DATABASE: [MYSQL_DATABASE]
+      MYSQL_USER: [MYSQL_USER]
+      MYSQL_PASSWORD: [MYSQL_PASSWORD]
       MYSQL_ALLOW_EMPTY_PASSWORD: 1
     networks:
       - docker-network
@@ -76,4 +76,5 @@ volumes:
 
 networks:
   docker-network:
+
     driver: bridge
