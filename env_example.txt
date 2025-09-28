@@ -1,0 +1,7 @@
+MYSQL_ROOT_PASSWORD=(root password)
+MYSQL_DATABASE=(database name)
+MYSQL_USER=(database user)
+MYSQL_PASSWORD=(database password)
+
+
+REDIS_PASSWORD=(redis password)
